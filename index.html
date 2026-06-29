@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nguyen Thanh Ngoc Han | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="header" id="top">
+      <div class="container header__inner">
+        <a class="brand" href="#top" aria-label="Trang chủ">
+          <span class="brand__mark" aria-hidden="true">◈</span>
+          <span class="brand__text">NTH</span>
+        </a>
+
+        <nav class="nav" aria-label="Điều hướng">
+          <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="navMenu">
+            <span class="sr-only">Mở menu</span>
+            <span class="nav__burger" aria-hidden="true"></span>
+          </button>
+          <ul class="nav__menu" id="navMenu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a class="nav__cta" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- HERO -->
+      <section class="hero" aria-label="Giới thiệu">
+        <div class="container hero__inner">
+          <div class="hero__left">
+            <div class="pill">Advanced Computer Science • AI Major</div>
+            <h1 class="hero__title">
+              Nguyen Thanh Ngoc Han
+              <span class="hero__title-accent">— AI • ML • Software</span>
+            </h1>
+            <p class="hero__subtitle">
+              Mình xây các sản phẩm và mô hình thông minh với tư duy khoa học máy tính, tập trung vào
+              chất lượng, hiệu suất và khả năng triển khai.
+            </p>
+
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#projects">Xem dự án</a>
+              <a class="btn btn--ghost" href="#contact">Liên hệ</a>
+            </div>
+
+            <div class="hero__meta" role="list">
+              <div class="meta-card" role="listitem">
+                <div class="meta-card__icon" aria-hidden="true">⚡</div>
+                <div>
+                  <div class="meta-card__label">Focus</div>
+                  <div class="meta-card__value">Machine Learning & AI</div>
+                </div>
+              </div>
+              <div class="meta-card" role="listitem">
+                <div class="meta-card__icon" aria-hidden="true">🧠</div>
+                <div>
+                  <div class="meta-card__label">Strength</div>
+                  <div class="meta-card__value">Research mindset</div>
+                </div>
+              </div>
+              <div class="meta-card" role="listitem">
+                <div class="meta-card__icon" aria-hidden="true">🛠️</div>
+                <div>
+                  <div class="meta-card__label">Build</div>
+                  <div class="meta-card__value">End-to-end systems</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__right">
+            <div class="profile">
+              <div class="profile__ring" aria-hidden="true"></div>
+              <div class="profile__avatar" aria-label="Ảnh đại diện">
+                <span aria-hidden="true">NTH</span>
+              </div>
+              <div class="profile__info">
+                <div class="profile__name">Nguyen Thanh Ngoc Han</div>
+                <div class="profile__role">Advanced Computer Science • AI Major</div>
+              </div>
+
+              <div class="profile__links" aria-label="Liên kết">
+                <a class="link-chip" href="#" target="_blank" rel="noopener">GitHub</a>
+                <a class="link-chip" href="#" target="_blank" rel="noopener">LinkedIn</a>
+                <a class="link-chip" href="#" target="_blank" rel="noopener">Email</a>
+              </div>
+
+              <div class="profile__download">
+                <a class="btn btn--small btn--ghost" href="#" onclick="return false;">
+                  Download CV
+                </a>
+                <span class="muted">(thay file CV sau)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="h2">About</h2>
+            <p class="section__lead">
+              Mình yêu thích việc biến ý tưởng thành hệ thống có thể chạy thật—từ data, mô hình đến sản phẩm.
+            </p>
+          </div>
+
+          <div class="grid grid--2">
+            <div class="card">
+              <h3 class="h3">Kỹ năng & cách làm</h3>
+              <p>
+                - Thiết kế pipeline ML/AI rõ ràng, theo dõi chất lượng mô hình
+                <br />- Ưu tiên hiệu năng và khả năng mở rộng
+                <br />- Viết code sạch, tài liệu hoá để dễ cộng tác
+              </p>
+            </div>
+            <div class="card">
+              <h3 class="h3">Giá trị mình mang lại</h3>
+              <p>
+                Tập trung vào kết quả đo được: độ chính xác, tốc độ, độ ổn định và trải nghiệm người dùng.
+              </p>
+              <div class="list">
+                <div class="list__item">✓ Model evaluation nghiêm túc</div>
+                <div class="list__item">✓ Experiment tracking & reproducibility</div>
+                <div class="list__item">✓ Deploy-friendly architecture</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="section section--alt" id="projects">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="h2">Projects</h2>
+            <p class="section__lead">Một vài dự án mẫu để em thay bằng dự án thật.</p>
+          </div>
+
+          <div class="grid grid--3">
+            <article class="project">
+              <div class="project__top">
+                <span class="project__tag">AI / NLP</span>
+                <h3 class="project__title">Text Classifier Pipeline</h3>
+              </div>
+              <p class="project__desc">
+                Pipeline huấn luyện + đánh giá cho bài toán phân loại văn bản, có baseline và ablation.
+              </p>
+              <div class="project__actions">
+                <a class="btn btn--small btn--primary" href="#" onclick="return false;">Demo</a>
+                <a class="btn btn--small btn--ghost" href="#" onclick="return false;">Code</a>
+              </div>
+            </article>
+
+            <article class="project">
+              <div class="project__top">
+                <span class="project__tag">ML / CV</span>
+                <h3 class="project__title">Image Quality Assessment</h3>
+              </div>
+              <p class="project__desc">
+                Mô hình đánh giá chất lượng ảnh theo nhiều metric; tối ưu tốc độ inference.
+              </p>
+              <div class="project__actions">
+                <a class="btn btn--small btn--primary" href="#" onclick="return false;">Demo</a>
+                <a class="btn btn--small btn--ghost" href="#" onclick="return false;">Code</a>
+              </div>
+            </article>
+
+            <article class="project">
+              <div class="project__top">
+                <span class="project__tag">System</span>
+                <h3 class="project__title">AI Service Starter</h3>
+              </div>
+              <p class="project__desc">
+                Template dịch vụ AI: model registry, batch/real-time inference, logging & monitoring.
+              </p>
+              <div class="project__actions">
+                <a class="btn btn--small btn--primary" href="#" onclick="return false;">Demo</a>
+                <a class="btn btn--small btn--ghost" href="#" onclick="return false;">Code</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="h2">Skills</h2>
+            <p class="section__lead">Tech stack mẫu—em thay theo đúng thực tế của mình.</p>
+          </div>
+
+          <div class="skills">
+            <div class="skill-group">
+              <h3 class="h3">Languages</h3>
+              <div class="chips">
+                <span class="chip">Python</span>
+                <span class="chip">TypeScript</span>
+                <span class="chip">Java</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3 class="h3">ML / AI</h3>
+              <div class="chips">
+                <span class="chip">PyTorch</span>
+                <span class="chip">Transformers</span>
+                <span class="chip">NLP</span>
+                <span class="chip">Computer Vision</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3 class="h3">Tools</h3>
+              <div class="chips">
+                <span class="chip">Docker</span>
+                <span class="chip">Git</span>
+                <span class="chip">Linux</span>
+                <span class="chip">Experiment tracking</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section class="section section--alt" id="experience">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="h2">Experience</h2>
+            <p class="section__lead">Chỗ để em thêm học tập / dự án nổi bật / internship.</p>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline__item">
+              <div class="timeline__dot" aria-hidden="true"></div>
+              <div class="timeline__content card">
+                <div class="timeline__top">
+                  <h3 class="h3">AI Research (Project)</h3>
+                  <span class="muted">2024 — Present</span>
+                </div>
+                <ul class="bullets">
+                  <li>Phát triển mô hình và đánh giá theo metric rõ ràng.</li>
+                  <li>Viết báo cáo kỹ thuật và trình bày kết quả.</li>
+                  <li>Tối ưu pipeline cho reproducibility.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="timeline__item">
+              <div class="timeline__dot" aria-hidden="true"></div>
+              <div class="timeline__content card">
+                <div class="timeline__top">
+                  <h3 class="h3">Software / Engineering</h3>
+                  <span class="muted">2023 — 2024</span>
+                </div>
+                <ul class="bullets">
+                  <li>Xây tính năng full-stack cho sản phẩm nội bộ.</li>
+                  <li>Làm việc theo sprint, cải thiện chất lượng code.</li>
+                  <li>Tập trung performance và UX.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="h2">Contact</h2>
+            <p class="section__lead">Điền email/link của em vào phần dưới.</p>
+          </div>
+
+          <div class="contact">
+            <div class="contact__card card">
+              <h3 class="h3">Let's build something</h3>
+              <p class="muted">
+                Mình sẵn sàng trao đổi về AI/ML, dự án nghiên cứu, hoặc cơ hội thực tập.
+              </p>
+              <div class="contact__actions">
+                <a class="btn btn--primary" href="mailto:nguyenthanhngochan@example.com">Email me</a>
+                <a class="btn btn--ghost" href="#" onclick="return false;">Xem CV</a>
+              </div>
+
+              <div class="contact__links">
+                <a class="link-row" href="#" target="_blank" rel="noopener">
+                  <span class="link-row__icon" aria-hidden="true">↗</span>
+                  <span>GitHub</span>
+                </a>
+                <a class="link-row" href="#" target="_blank" rel="noopener">
+                  <span class="link-row__icon" aria-hidden="true">↗</span>
+                  <span>LinkedIn</span>
+                </a>
+                <a class="link-row" href="#" target="_blank" rel="noopener">
+                  <span class="link-row__icon" aria-hidden="true">↗</span>
+                  <span>Medium / Blog</span>
+                </a>
+              </div>
+            </div>
+
+            <form class="contact__form" id="contactForm">
+              <div class="form-row">
+                <label class="label" for="name">Name</label>
+                <input class="input" id="name" name="name" type="text" placeholder="Your name" required />
+              </div>
+              <div class="form-row">
+                <label class="label" for="email">Email</label>
+                <input
+                  class="input"
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="you@example.com"
+                  required
+                />
+              </div>
+              <div class="form-row">
+                <label class="label" for="message">Message</label>
+                <textarea
+                  class="textarea"
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Write your message..."
+                  required
+                ></textarea>
+              </div>
+
+              <button class="btn btn--primary btn--block" type="submit">
+                Send (demo)
+              </button>
+              <p class="form-hint muted" id="formHint" aria-live="polite"></p>
+              <p class="form-hint muted">
+                (hiện tại form ở chế độ demo; có thể nối API sau)
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="muted">© <span id="year"></span> Nguyen Thanh Ngoc Han</div>
+        <div class="footer__links">
+          <a href="#top">Back to top</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
